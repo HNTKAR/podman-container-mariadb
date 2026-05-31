@@ -2,7 +2,7 @@
 Description=MariaDB Container
 
 [Container]
-Image=mariadb-custom
+Image=p-mariadb.build
 ContainerName=mariadb
 Environment=MARIADB_ROOT_PASSWORD=PASSWORD
 ServiceName=pc-mariadb
